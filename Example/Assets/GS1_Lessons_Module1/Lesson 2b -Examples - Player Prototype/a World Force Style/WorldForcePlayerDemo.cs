@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class WorldForcePlayerDemo : MonoBehaviour
 {
-    public string inputHorizontal = "Horizontal";
-    public string inputVertical = "Vertical";
-
-
     [SerializeField] // This will allow us to see our private variables, without being able to access them. 
     private float xInput = 0;
     [SerializeField]
@@ -29,8 +25,8 @@ public class WorldForcePlayerDemo : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        xInput = Input.GetAxis(inputHorizontal);
-        yInput = Input.GetAxis(inputVertical);
+        xInput = Input.GetAxis("Horizontal");
+        yInput = Input.GetAxis("Vertical");
     }
 
     // Physics Update: Provide Forces in this loop instead. 
