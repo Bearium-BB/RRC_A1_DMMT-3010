@@ -27,7 +27,6 @@ public class PhysicsBooster : MonoBehaviour
     public float angularDragSettingA = 1.0f;
     public float angularDragSettingB = 2.0f;
 
-
     [Header("Physics Settings")]
     // World vs Local Space. 
     public Space space = Space.World; 

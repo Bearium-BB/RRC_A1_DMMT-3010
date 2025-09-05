@@ -370,6 +370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RelativePlayer_V2_Boosted
       objectReference: {fileID: 0}
+    - target: {fileID: 2228556593342432002, guid: 82e23bea522d19943936b382b6cbde17, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
