@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Meun Drone Collector.unity
+    guid: 2a5250af901cdcb45baa7fe9befd206f
+  - enabled: 1
+    path: Assets/Scenes/Drone Collector level 1.unity
+    guid: 001440a365c52014782e9b1b025410b1
+  - enabled: 1
+    path: Assets/Scenes/Drone Collector level 2.unity
+    guid: fce9a9f6abadb744397aaaaa7ff6bfab
+  - enabled: 1
+    path: Assets/Scenes/Drone Collector level 3.unity
+    guid: ac6aeab65ef151341988221439048f25
+  - enabled: 1
+    path: Assets/Scenes/Drone Collector level 4.unity
+    guid: ec3832bb87babd4489eb21f03d85ee77
   m_configObjects: {}
